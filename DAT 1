@@ -1,0 +1,13 @@
+//Temperature conversion (takes input from user in celsius form and convert it into fahrenheit form...
+#include <iostream>
+using namespace std;
+
+int main (){ //creating a main function and writing entire logic in it...
+    
+    double celsius; //defining a data type
+    double fahrenheit;
+    cin>> celsius; //taking input 
+    fahrenheit = (celsius * 9.0/5.0 ) + 32.0 ;
+    cout<<fahrenheit<<endl;
+    return 0;
+}

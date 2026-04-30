@@ -11,3 +11,20 @@ int main (){ //creating a main function and writing entire logic in it...
     cout<<fahrenheit<<endl;
     return 0;
 }
+
+
+//GLOBAL VS LOCAL VARIABLE
+#include <iostream>
+using namespace std;
+int globalVariable=100;
+int main (){
+    //local variable
+    int userInput;
+    float result;
+    cin >> userInput;
+    result = (double) globalVariable / userInput;
+     cout << result << endl;
+     return 0; }
+    
+    
+

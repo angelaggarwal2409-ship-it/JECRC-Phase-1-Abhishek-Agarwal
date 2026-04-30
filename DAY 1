@@ -23,6 +23,24 @@ int main (){
     float result;
     cin >> userInput;
     result = (double) globalVariable / userInput;
+
+
+
+//Problem 4 Swap values of two variables using 3rd variable    
+#include <iostream>
+using namespace std;
+
+int main (){ 
+    int a;
+    int b;
+    cin >> a>> b;
+    //swapping logic
+    int temp = a;
+    cout << a << "\n" << b << endl;
+    
+    return 0;
+}
+    
      cout << result << endl;
      return 0; }
 

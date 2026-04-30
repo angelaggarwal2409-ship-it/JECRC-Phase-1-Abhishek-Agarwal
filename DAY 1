@@ -90,3 +90,21 @@ int main() {
     return 0;
     
 }
+
+
+
+
+
+//sum and avg of three numbers after taking input from user      
+ #include <iostream>
+using namespace std;
+
+int main (){
+    int a,b,c,sum;
+    float avg;
+    cin >> a>>b>>c;
+    sum=a+b+c;
+    avg=sum/3.0;
+    cout<<"The sum is:" << sum<<"\n"<<"The avg is:"<< avg<<endl;
+    return 0;
+}

@@ -85,6 +85,7 @@ int main()
 
 
 //for loop
+//print 1 to n and avoid those number which are divisible by 3
 #include <iostream>
 using namespace std;
 int main()
@@ -102,3 +103,23 @@ int main()
 
     return 0;
 }
+
+
+//break statement
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n;
+    int sum=0;
+    while(true) {
+    cin>>n;
+    if (n<0) {
+        break;
+    }
+    sum = sum+n;
+    }
+    cout << sum;
+    return 0; 
+}
+    

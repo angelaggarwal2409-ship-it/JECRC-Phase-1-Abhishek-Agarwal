@@ -125,3 +125,33 @@ int main()
     return 0; 
 }
     
+
+
+
+
+
+//Problem 8 -- 
+#include <iostream>
+using namespace std;
+int main()
+{
+    string DayOrNight;
+    bool motionDetected;
+    
+        cout << "Is it day or night? :";
+        cin >> DayOrNight;
+        cout << "Is Motion Detected? (1 for Yes, 0 for No): ";
+        cin >> motionDetected;
+        
+        if(DayOrNight == "Night" || DayOrNight == "night" || DayOrNight == "NIGHT") //"||" this is used for OR
+        {
+            if(motionDetected) {
+                cout << "Turn on the LED light with 100% brightness...";
+            } else{
+                cout << "Turn on the LED light with 10% brightness...";
+            }
+        } else if (DayOrNight == "Day" || DayOrNight == "day" || DayOrNight == "DAY") {
+            cout << "Turn off the light...";
+        }
+    return 0; 
+}

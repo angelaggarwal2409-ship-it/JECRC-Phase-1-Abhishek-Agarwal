@@ -60,3 +60,24 @@ int main()
 
     return 0;
 }
+
+
+
+
+//Problem 4 : Ternary operator
+//find the greatest number among 2
+#include <iostream>
+using namespace std;
+int main()
+{
+    int age;
+    int a,b;
+    int max_Number;
+    cin>>a>>b;
+    //Ternary operator 
+    max_Number = (a>b) ? a:b;
+    cout << max_Number;
+    
+
+    return 0;
+}

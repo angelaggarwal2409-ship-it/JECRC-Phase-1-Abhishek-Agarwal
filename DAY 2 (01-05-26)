@@ -84,6 +84,7 @@ int main()
 
 
 
+//Problem:5 Continue 
 //for loop
 //print 1 to n and avoid those number which are divisible by 3
 #include <iostream>

@@ -36,7 +36,7 @@ int main() {
 
 
 
-//Problem 3 : if condition
+//Problem 3 -- if condition
 //to verify users age whether eligible for vote or not?
 #include <iostream>
 using namespace std;
@@ -64,7 +64,7 @@ int main()
 
 
 
-//Problem 4 : Ternary operator
+//Problem 4 -- Ternary operator
 //find the greatest number among 2
 #include <iostream>
 using namespace std;
@@ -84,7 +84,7 @@ int main()
 
 
 
-//Problem:5 Continue 
+//Problem 5 -- Continue 
 //for loop
 //print 1 to n and avoid those number which are divisible by 3
 #include <iostream>
@@ -106,7 +106,7 @@ int main()
 }
 
 
-//break statement
+// Problem 7 -- break statement
 #include <iostream>
 using namespace std;
 int main()

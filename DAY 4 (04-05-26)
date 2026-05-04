@@ -1,4 +1,4 @@
-//Problem 1
+//Problem 1 -- 1 to 10 numbers print
 #include <iostream>
 using namespace std;
 int main()
@@ -6,6 +6,24 @@ int main()
     for (int i=1; i<=10; i++) {
         for (int j=1; j<=10; j++) {
             cout << j << " ";
+        }
+        cout << endl;
+    }
+  
+
+    return 0;
+}
+
+
+
+//Problem 2 -- STAR PATTERN BASIC
+#include <iostream>
+using namespace std;
+int main()
+{
+    for (int i=1; i<=10; i++) {
+        for (int j=1; j<=10; j++) {
+            cout << "*" << " ";
         }
         cout << endl;
     }

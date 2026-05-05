@@ -166,3 +166,18 @@ for (int k=n-1; k>=1; k--)
     cout<<add(5.0,2.0);
     return 0;
  }
+
+
+//Problem 6 -- Pointers
+#include <iostream>
+using namespace std;
+int main() {
+    int age = 24;
+    int *ptr = &age;
+    
+    cout << age << "\n";
+    cout << ptr << "\n";
+    cout << *ptr;
+ }   
+
+

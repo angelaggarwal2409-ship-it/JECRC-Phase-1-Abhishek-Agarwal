@@ -26,3 +26,22 @@ for (int k=n-1; k>=1; k--)
 
     return 0;
 }
+
+
+
+//Problem -- 2 
+//Function declaration and initialzation
+ #include <iostream>
+ using namespace std;
+ 
+ 
+ void printMessage () {
+     cout << "Hi we are learning functions...";
+ }
+
+
+ int main () {
+     printMessage () ;
+     return 0;
+ }
+ 

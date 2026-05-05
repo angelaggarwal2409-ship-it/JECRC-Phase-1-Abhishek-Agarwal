@@ -118,3 +118,21 @@ for (int k=n-1; k>=1; k--)
      return 0;
  }
   
+
+
+
+//4.4 Argument,  Return types
+ #include <iostream>
+ using namespace std;
+ 
+ 
+ int CurrencyConversion (int amountInUSD) {
+     return amountInUSD/100;
+ }
+
+
+ int main () {
+     cout << CurrencyConversion (100) ;
+     return 0;
+ }
+  

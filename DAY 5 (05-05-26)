@@ -64,3 +64,57 @@ for (int k=n-1; k>=1; k--)
      int areaOfRectangle = area (length, width);
      cout << areaOfRectangle;
  }
+
+
+
+
+//Problem -- 4
+//types of function 
+//4.1 no argument no return types
+ #include <iostream>
+ using namespace std;
+ 
+ 
+ void DoorBell () {
+     cout << "Tin tong...";
+ }
+
+
+ int main () {
+     DoorBell () ;
+     return 0;
+ }
+
+
+//4.2 Argument no return types
+ #include <iostream>
+ using namespace std;
+ 
+ 
+ void SendText (string message) {
+     cout << message;
+ }
+
+
+ int main () {
+     SendText ("BJP wons...") ;
+     return 0;
+ }
+  
+  
+  
+  //4.3 no Argument,  return types
+ #include <iostream>
+ using namespace std;
+ 
+ 
+ int TicketNumber () {
+     return 101;
+ }
+
+
+ int main () {
+     cout << TicketNumber () ;
+     return 0;
+ }
+  

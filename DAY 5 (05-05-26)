@@ -178,6 +178,34 @@ int main() {
     cout << age << "\n";
     cout << ptr << "\n";
     cout << *ptr;
- }   
+
+ //age=28
+    *ptr = 28;
+    cout << *ptr;
+    }
+
+//Problem -- 7
+#include <iostream>
+using namespace std;
+int main ()  {
+    int a,b;
+    cin >> a;
+    cin >> b;
+    
+    int *ptr1 = &a;
+    int *ptr2 = &b;
+    
+    int sum = *ptr1 + *ptr2;
+    cout << sum;
+}
+
+
+
+
+
+
+
+
+ 
 
 

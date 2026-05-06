@@ -56,3 +56,31 @@ int main ()
    cout << original;
 }
 
+
+
+//Problem 4 -- one coffee 100 add values for number of coffee
+#include <iostream>
+using namespace std;
+
+int coffee(int cups)
+{
+    return cups*100;
+}
+
+int main (){
+    int cups;
+    cout << "Enter the number of coffee cups";
+    cin >> cups;
+    coffee (cups);
+    cout << coffee(cups);
+    
+}
+
+
+
+
+
+
+
+
+

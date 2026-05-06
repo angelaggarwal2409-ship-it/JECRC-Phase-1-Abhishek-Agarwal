@@ -30,3 +30,29 @@ int main ()
     cout << area (10);
 }
 
+
+
+//Problem 3 -- Call by value , call by refernce
+#include<iostream>
+using  namespace std;
+ 
+ //function is argument but no return type
+ void updatebyValue(int a){
+     a=500;
+ }
+ 
+ void updatebyReference(int &a){
+     a=500;
+ }
+ 
+int main ()
+{
+   int original = 100;
+   cout << original << "\n";
+   
+   updatebyValue(original);
+   cout << original << "\n";
+  updatebyReference(original);
+   cout << original;
+}
+

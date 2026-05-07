@@ -99,3 +99,55 @@ int main() {
     std1.displayDetails();
     
 }
+
+
+
+//Encapsulation -- binding/wrapping of data into a single unit(FUNCTIONS, DATA, VARIABLES, METHOD)
+//Problem 3 -- Pillar of OOPS
+//into a single unit called class and making some restrictions on this class members.And can access by limited people means total control over DATA
+//***data access given to someone is in my control using access specifier
+//need for encapsultion -- data security, full contol over access, validation before aceesing the data
+
+#include <iostream>
+using namespace std;
+
+class bankAccount
+{
+    private:
+    int balance;
+    
+    
+    public:
+     void setbalance (int amount)  //setter (not returning any value only setting so no return type)
+    { //no return type therfore void but argument
+        if (amount >=0) {
+            balance = amount;
+        } else {
+            cout << "Enter a valid number...";
+        }
+    }
+    
+    // void getbalance() //since using getter which have return type cant use void
+    // { 
+    //     cout << balance;
+    // }
+    
+    public:
+    int getbalance() //getter (it will always return something therefore return)
+    { 
+        return balance;
+    }
+    
+};
+
+int main()
+{
+   bankAccount obj1;
+   obj1.setbalance(5000);
+   obj1.getbalance();
+   cout << obj1.getbalance();
+}
+
+//advantages -- user jo number paas krega usse hum apne bank account ko update kr sakte hai
+
+

@@ -140,6 +140,7 @@ int main ()
 
 // 💎 PROBLEM 07: ACCESS MODIFIERS (PUBLIC) 🔓
 // 📝 Task: Demonstrating 'public' access from main()
+//7.1 -- Public 
 
 #include <iostream>
 using namespace std;

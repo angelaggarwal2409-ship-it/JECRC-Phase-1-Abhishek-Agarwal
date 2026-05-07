@@ -151,3 +151,17 @@ int main()
 //advantages -- user jo number paas krega usse hum apne bank account ko update kr sakte hai
 
 
+//Problem 4 --  Abstraction
+//Pillar of OOPS
+//we make an abstract class (virtual keyword)
+//abstract class -- cannot be initaialized just declare it 
+//formed using abstract keyword
+//abstract class -- it has all properties of all the classes and doesnt have a property of its own
+//abstract method -- there is no initialzationof abstract method
+//abstract FUNCTIONS can also be implemented in abstarct class
+// in normal class we need to define everything 
+//accelerator brake clutch or car is visble not engine and machinery
+//hiding implementation and showing only the necessary / essential
+//hiding complexity
+
+

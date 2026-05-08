@@ -1,1 +1,47 @@
+//types of inheritance -- 1 single (1child, 1 parent, child has all properties of its own and his father)
+//2 Multilevel (1 grandfather, 1 father, 1 child) 
+//3 multiple (2 parent, 1 child)
+//4 hierarchial (1parent, multiple  child)
+//5 hybrid (combination of multiple types of inheritance)
+#include <iostream>
+using namespace std;
 
+class parent {
+  public:
+  void start () {
+      cout << "vehicle starts" << "\n";
+  }
+    
+};
+
+class child: public parent {
+    public:
+    void drive () {
+        cout << "Car is running" << "\n";
+    }
+    
+};
+//till here single level inheritance
+//when this below class is added it becomes multilevel
+
+class baby: public child {
+    public:
+    void speed () {
+        cout << "Car is running at speed of 60km/hr" << "\n";
+    }
+    
+};
+    
+    
+
+int main()
+
+{
+    baby obj1;
+    obj1.drive();
+    obj1.start();
+    obj1.speed();
+  // cout << obj1.drive() << " " << obj1.start();
+    //this above line wont print and give error bcz cout expects return tyep and we didn't initiate any return  type . they are void so error.
+    return 0;
+}

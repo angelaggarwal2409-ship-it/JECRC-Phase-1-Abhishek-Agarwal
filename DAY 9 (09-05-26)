@@ -14,6 +14,10 @@ using namespace std;
 // class Fan : public Appliance{
 // public:
 //     void turnOn() override{
+//function Overriding
+    //jo pahle data hai usko new wale data se exchange krdenge
+    //turnOn ko call krne pr jo pahle call hoga (appliance) woh override ho jayega kaat kr ye likha jayega
+#include <iostream>
 //         cout <<"Fan blades are moving slowly..." <<"\n";
 //     }
 //     void work() override {

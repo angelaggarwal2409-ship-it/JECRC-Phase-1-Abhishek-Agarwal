@@ -26,3 +26,32 @@ int main()
 cout << consecutiveOnes(10);
     return 0;
 }
+
+
+
+//Problem 2 -- Recursion
+//Tiles Problem
+//find all the possibilities for 4*n if 4*4 gives two possibilities 4*1 and 1*4
+//no diagonal arrangement either vertically or horizontally         
+#include <iostream>
+using namespace std;
+
+int countWays(int n) {
+
+    // Base condition
+    if (n < 0)
+        return 0;
+
+    if (n < 4)
+        return 1;
+
+    //logic
+    return countWays(n - 1) + countWays(n - 4);
+}
+
+int main() {
+    cout << countWays(4);
+
+    return 0;
+}
+
